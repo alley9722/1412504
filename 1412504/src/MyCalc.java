@@ -19,7 +19,6 @@ public class MyCalc {
 		
 		Scanner in = new Scanner(System.in);
 		
-		
 		System.out.println("choose> ");
 		int choice = in.nextInt();
 		
