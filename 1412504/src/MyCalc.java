@@ -17,13 +17,13 @@ public class MyCalc {
 		System.out.println("3. Multiply two numbers");
 		System.out.println("4. Quit");
 		
-		Scanner in = new Scanner(System.in);
 		
+		Scanner in = new Scanner(System.in);
 		
 		System.out.println("choose> ");
 		int choice = in.nextInt();
 		
-		/*System.out.println(">x: ");
+		System.out.println(">x: ");
 		int number1 = in.nextInt();
 		System.out.println(">y: ");
 		int number2 = in.nextInt();
@@ -34,7 +34,7 @@ public class MyCalc {
 			System.out.println("Result: " + result);
 			choose();
 			}
-			
+			/*
 			if (choice == 2) {
 				int result = substract(number1, number2);
 				System.out.println("Result: " + result);
@@ -54,9 +54,10 @@ public class MyCalc {
 	}
 	
 	
-/*static int add(int number1, int number2) {
+static int add(int number1, int number2) {
 	return number1+number2;
 }
+/*
 static int substract(int number1, int number2) {
 	return number1-number2;
 }
