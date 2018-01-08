@@ -17,6 +17,7 @@ public class MyCalc {
 		System.out.println("3. Multiply two numbers");
 		System.out.println("4. Quit");
 		
+		
 		Scanner in = new Scanner(System.in);
 		
 		System.out.println("choose> ");
